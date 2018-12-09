@@ -1,6 +1,6 @@
 from sopel.module import commands, rule, event
 import re
-
+# prova
 @event('JOIN')
 @rule(r'.*')
 def akajoin(bot, trigger):
